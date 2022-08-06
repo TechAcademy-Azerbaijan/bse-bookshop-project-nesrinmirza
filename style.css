@@ -1,0 +1,90 @@
+h1{
+    font-family: 'Lobster';
+    color: #109E97;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 61px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+p:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+}
+.price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #008000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+
+}
+#first-price{
+    text-decoration: line-through;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF0000;
+}
+h2{
+    text-transform: uppercase;
+}
+
+.text{
+    text-align: right;
+    background-color: black;
+    color: white;
+    height: 256px;
+    left: 8px;
+    top: 552px;
+}
+.text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+table tr{
+    line-height: 36px;
+}
+.book-pic{
+    background-image: url('book1.png');
+    background-repeat:no-repeat;
+    text-align: center;
+    height: 478px;
+    width: 320px;
+}
+#comments{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.comments-area{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color:  #109E97;
+    color: white;
+}
+.footer-copyright{
+    background-color: #109E97;
+    color: white;
+    text-align:center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
