@@ -1,6 +1,6 @@
 h1{
     font-family: 'Lobster';
-    color: #109E97;
+    color: white;
     font-style: normal;
     font-weight: 400;
     font-size: 49px;
@@ -36,24 +36,18 @@ p:first-of-type{
 }
 h2{
     text-transform: uppercase;
+    
 }
 
-.text{
-    text-align: right;
-    background-color: black;
-    color: white;
-    height: 256px;
-    left: 8px;
-    top: 552px;
-}
 .text p{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
-    text-align: right;
+    line-height: 18px;
+    text-align: left;
     letter-spacing: 2px;
     word-spacing: 2px;
+    
 }
 table tr{
     line-height: 36px;
@@ -81,7 +75,7 @@ table tr{
     text-align: center;
     line-height:30px;
 }
-button{
+.gonder{
     background-color:  #109E97;
     color: white;
     width: 120px;
@@ -96,4 +90,92 @@ button{
 }
 label{
     height: 30px;
+}
+
+.first{
+    border: 1px solid yellow;
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 450px;
+    margin-top: 60px;
+}
+
+.header{
+    width: 100%;
+    background-color: #109E97;
+    border-bottom: black;
+    border-style:inset
+}
+
+.img{
+   
+    height: 450px;
+  
+}
+
+.book-name{
+    position: absolute;
+    width: 718px;
+    top: 0;
+    right: 0;
+    border: 3px solid rgb(163, 236, 163)
+}
+
+.text{
+    position:absolute;
+    width: 718px;
+    right: 0;
+    bottom: 0;
+    border: 3px solid rgb(163, 236, 163)
+}
+.text h2{
+    margin-bottom: 10px;
+}
+
+.sebet{
+    background-color:  #109E97;
+    color: white;
+    width: 149px;
+    height: 48px;
+    left: 752px;
+    top: 634px;
+    border: 1px solid #109E97;
+    margin-top: 20px;
+}
+
+.second{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    margin-top: 60px;
+}
+
+.second h2{
+    text-align: center;
+   margin-bottom: 20px;
+}
+
+tr{
+    border-top: 1px solid rgb(50, 47, 47);
+    border-bottom: 1px solid rgb(50, 47, 47);
+}
+
+.icon{
+    font-size: 50px;
+   background-color: #109E97;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.linkler{
+    position: fixed;
+    right: 15px;
+    top: 300px;
+}
+
+footer{
+    margin-top: 80px;
 }
