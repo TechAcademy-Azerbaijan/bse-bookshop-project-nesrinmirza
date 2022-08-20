@@ -1,0 +1,287 @@
+h1{
+    font-family: 'Lobster';
+    color: #109E97;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 61px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+.title{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    
+    background-color: #109E97;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: black;
+    border-top: black;
+    border-style:inset
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border-right: 1px solid white;
+ }
+ 
+ .nav-links{
+     width: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+ }
+
+
+ .nav-links a:hover{
+    background-color: white; 
+    color: #109E97;
+ }
+
+
+ 
+ .nav-links :first-of-type{
+    border-left: 1px solid white;
+ }
+
+ ul .nav-links:nth-child(4){
+    background-color: #0E524E;
+ }
+
+ ul .nav-links:nth-child(4) a:hover{
+    cursor: default;
+ }
+ 
+ .nav-links a:focus{
+    background-color:#0E524E;
+ }
+ .nav-links a{
+     text-decoration: none;
+     color: white;
+     padding: 20px 0;
+     cursor: pointer;
+     width: 100%;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ 
+p:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+}
+.price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #008000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+
+}
+#first-price{
+    text-decoration: line-through;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF0000;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.paragraph p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    height: 14rem;
+    overflow-y:scroll;
+    direction: rtl;
+    
+}
+table tr{
+    line-height: 36px;
+}
+.book-pic{
+    background-image: url('book1.png');
+    background-repeat:no-repeat;
+    text-align: center;
+    height: 478px;
+    width: 320px;
+}
+#comments{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.comments-area{
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.5;
+}
+
+.comments-area:hover{
+    opacity: 1;
+}
+.comments-div{
+    text-align: center;
+    line-height:30px;
+}
+.gonder{
+    background-color:  #109E97;
+    color: white;
+    width: 120px;
+    height: 50px
+}
+.footer-copyright{
+    background-color: #109E97;
+    color: white;
+    text-align:center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+label{
+    height: 30px;
+}
+
+.first{
+    position: relative;
+    margin: auto;
+    width: 70%;
+    height: 450px;
+    margin-top: 60px;
+}
+
+
+
+.img{
+   
+    height: 450px;
+  
+}
+
+.book-name{
+    position: absolute;
+    width: 718px;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.paragraph{
+    position:absolute;
+    width: 718px;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+
+}
+
+.paragraph h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sebet{
+    background-color:  #109E97;
+    color: white;
+    width: 149px;
+    height: 48px;
+    left: 752px;
+    top: 634px;
+    border: 1px solid #109E97;
+    margin-top: 20px;
+}
+
+.second{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    margin-top: 60px;
+}
+
+.second h2{
+    text-align: center;
+   margin-bottom: 20px;
+}
+
+tr{
+    border-top: 1px solid rgb(50, 47, 47);
+    border-bottom: 1px solid rgb(50, 47, 47);
+}
+
+.icon{
+    font-size: 50px;
+   background-color: #109E97;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.linkler{
+    position: fixed;
+    right: 15px;
+    top: 300px;
+}
+
+
+
+i {
+    font-size: 35px;
+}
+
+.linkler a{
+    display: flex;
+    color: white;
+    width: 50px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+}
+#yuxari{
+    background-color: grey;
+}
+
+.text:not(:placeholder-shown) + label{
+    background-color: #0E524E;
+} 
+
+footer{
+    margin-top: 80px;
+}
+
+.text:focus{
+    background-color: yellow;
+}
+
+.checkbox:focus{
+    transform: scale(2);
+}

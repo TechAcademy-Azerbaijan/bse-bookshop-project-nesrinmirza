@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="reset.css">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Raleway&family=Roboto&display=swap"
+      rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Raleway&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="product.css">
+</head>
+
+<body id="scroll">
+   <section>
+      <div class="title">
+      <a href="C:\Users\Asus\Desktop\Tech Academy\Bookshop\bse-bookshop-project-nesrinmirza\index.html">
+         <h1>Kitab mağazası</h1>
+      </a>
+   </div>
+
+   <nav class="header">
+      <ul>
+          <li class="nav-links"><a href="#">ANA SƏHİFƏ</a></li>
+          <li class="nav-links"><a href="#">HAQQIMIZDA</a></li>
+          <li class="nav-links"><a href="#">KATEQORİYALAR</a></li>
+          <li class="nav-links"><a href="#">AYIN KİTABI</a></li>
+          <li class="nav-links"><a href="#">ƏLAQƏ</a></li>
+      </ul>
+     </nav>
+
+   <div class="first">
+      <div class="book-name">
+         <p> David Eagleman - incognito (beyinin gizli həyatı)</p>
+         <p class="price">12.00 AZN<span id="first-price">15.00 AZN</span></p>
+   </div>
+     <div class="img"> 
+      <img src="book1.png" alt="Book" width="300px" height="450px">
+     </div>
+      <div class="paragraph">
+         <h2>Qısa məzmun</h2>
+         <p>Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və
+            indidən klassik əsərə çevrilən bu kitabı beynin sirli dünyasına təcrübələr,
+            elmi biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda olsa
+            da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək elmi faktları
+            sadə və müqayisəli dillə oxucularına təqdim edir. Müəllif əsər boyu
+            sədaqət geni, qumarbazlara çevrilən parkinson xəstələri, gen-mühit
+            əlaqəsi, “yaxşı” və “pis” gen, şüuraltı və qərarvermə mexanizmi,
+            məsuliyyət anlayışı, beynin insan həyatında rolu kimi bir çox mövzulara
+            toxunur. Alim bu mövzuların beyinlə əlaqəsini izah etməklə kifayətlənmir,
+            beyinlə bağlı müxtəlif formullar və modellər irəli sürür. İnsan psixologiyası
+            və davranışlarına neyron və gen prizmasından baxmağı öyrədir. Elmi-
+            populyar dildə yazılmış bu kitab xüsusən müəllimlər, psixoloqlar,
+            valideynlər, həkimlər üçün mühüm bilikləri ehtiva edir.</p>
+            <button class="sebet">Səbətə əlavə et</button>
+      </div>
+   </div>
+   
+      <div class="second">
+      <h2>Xüsusiyyətlər</h2>
+      <table style="width:100%" border="1">
+         <tr>
+            <td>Dil:</td>
+            <td>Azərbaycanca</td>
+         </tr>
+         <tr>
+            <td>Janr:</td>
+            <td>Psixologiya</td>
+         </tr>
+         <tr>
+            <td>Müəllif:</td>
+            <td>David Eagleman</td>
+         </tr>
+         <tr>
+            <td>Nəşriyyat:</td>
+            <td>Qanun nəşriyyatı</td>
+         </tr>
+      </table>
+   </div>
+     
+      <div class="third">
+      <h2 id="comments">Şərh yaz</h2>
+      <section class="comments-area">
+         <div class="book-pic"> </div>
+
+         <div class="comments-div">
+            <label>Tam adınız:</label>
+            <br>
+            <input class="text" type="text" placeholder=" ">
+            <br>
+            <label>Bu kitabı oxumusunuz mu?</label>
+            <input class="checkbox" type="checkbox">
+            <br>
+            <label>Nə vaxt oxumusunuz?</label>
+            <input class="text" type="date" placeholder=" ">
+            <br>
+            <label for="Dillər">Hansı dildə oxumusunuz?</label>
+            <select>
+               <option>Azərbaycan</option>
+               <option>Rus</option>
+               <option>İngilis</option>
+            </select>
+            <br>
+            <label>Qiymətləndirmə:</label>
+            <input type="range">
+            <br>
+            <label for="Bio">Şərhiniz</label>
+            <br>
+            <textarea cols="20" rows="10"></textarea>
+            <br>
+            <button class="gonder">Göndər</button>
+         </div>
+         <div class="book-pic"> </div>
+      </section>
+   </div>
+      <div class="linkler">
+      <div class="icon" id="facebook"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></div>
+      <div class="icon" id="youtube"><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></div>
+      <div class="icon" id="instagram"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+      <div class="icon" id="linkedin"><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></div>
+      <div class="icon" id="google"><a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a></div>
+      <div class="icon" id="yuxari"><a href="#scroll"><i class="fa-solid fa-angles-up"></i></a></div>
+   </div>
+      
+     <footer>
+      <p class="footer-copyright">2020 © Bütün haqlar qorunur.</p>
+     </footer>
+   </section>
+</body>
+
+</html>
