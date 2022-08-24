@@ -34,7 +34,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 60%;
     border-right: 1px solid white;
  }
  
@@ -44,6 +44,7 @@ ul{
      justify-content: center;
      align-items: center;
      cursor: pointer;
+     border-left: 1px solid white;
  }
 
 
@@ -53,10 +54,6 @@ ul{
  }
 
 
- 
- .nav-links :first-of-type{
-    border-left: 1px solid white;
- }
 
  ul .nav-links:nth-child(4){
     background-color: #0E524E;
@@ -84,7 +81,7 @@ p:first-of-type{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 27px;
 }
 .price{
@@ -130,8 +127,9 @@ table tr{
     background-image: url('book1.png');
     background-repeat:no-repeat;
     text-align: center;
-    height: 478px;
-    width: 320px;
+    height: 400px;
+    width: 310px;
+    background-size: contain;
 }
 #comments{
     text-align: center;
@@ -143,8 +141,9 @@ table tr{
 }
 .comments-area{
     display: flex;
-    justify-content: space-around;
     opacity: 0.5;
+    width: 60%;
+    margin: auto;
 }
 
 .comments-area:hover{
@@ -172,32 +171,30 @@ label{
 }
 
 .first{
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
     margin: auto;
-    width: 70%;
-    height: 450px;
+    width: 60%;
     margin-top: 60px;
 }
 
-
-
-.img{
-   
-    height: 450px;
-  
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-
 .book-name{
-    position: absolute;
-    width: 718px;
+    /* position: absolute; */
+    width: 100%;
     top: 0;
     right: 0;
     text-align: right;
 }
 
 .paragraph{
-    position:absolute;
-    width: 718px;
+    /* position:absolute; */
+    width: 100%;
     right: 0;
     bottom: 0;
     text-align: right;
@@ -223,7 +220,7 @@ label{
 .second{
     position: relative;
     margin: auto;
-    width: 80%;
+    width: 60%;
     height: 250px;
     margin-top: 60px;
 }
@@ -284,4 +281,97 @@ footer{
 
 .checkbox:focus{
     transform: scale(2);
+}
+
+
+@media screen and (max-width:1024px){
+    ul{
+        width: 100%;
+    }
+    .first{
+        width: 80%;
+    }
+
+    .second{
+        width: 80%;
+    }
+    .book-pic{
+        display: none;
+    }
+    .third{
+        width: 80%;
+        margin: auto;
+    }
+    .comments-area{
+        opacity: 1;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+        gap: 40px;
+    }
+  .book-name{
+    position: static;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .img{
+    position: static;
+    width: 100%;
+    background-size: contain;
+    text-align: center;
+    
+  }
+  .paragraph{
+   position: static;
+   width: 100%;
+   border-top: 1px solid black;
+   text-align: left;
+}
+.paragraph p{
+    direction: ltr;
+    text-align: left;
+}
+
+}
+
+@media screen and (max-width:600px) {
+   .header{
+    position: relative;
+   }
+   ul {
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: #109E97;
+    flex-direction: column;
+    align-items: center;
+   
+   }
+   
+   .nav-links{
+    border-left: none;
+    width: 80%;
+    border-bottom: 1px solid white;
+   }
+   .nav-links:last-of-type{
+    border: none;
+   }
+ 
+   .linkler{
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   }
+   footer{
+    margin-top: 20px;
+   }
 }
