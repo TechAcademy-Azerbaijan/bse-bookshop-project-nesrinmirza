@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootproduct.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-info rounded-2">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-white" href="#">KİTAB MAĞAZASI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div >
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Ana səhifə</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">Haqqımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">Kateqoriyalar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">Ayın kitabı</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white-50" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  İstifadəçi
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </nav>
+       
+      <div class="text-center mt-4">
+        <img src="book.png" alt="">
+        <div>
+        <p class="fw-bold"> David Eagleman - incognito (beyinin gizli həyatı)</p>
+        <span class="text-success fw-bold fs-5">12.00 AZN</span> <span class="text-danger text-decoration-line-through">15.00 AZN</span>
+        <p>Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və indidən klassik əsərə çevrilən bu kitabı beynin sirli dünyasına təcrübələr, elmi biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda olsa da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək elmi faktları sadə və müqayisəli dillə oxucularına təqdim edir. Müəllif əsər boyu sədaqət geni, qumarbazlara çevrilən parkinson xəstələri, gen-mühit əlaqəsi, “yaxşı” və “pis” gen, şüuraltı və qərarvermə mexanizmi, məsuliyyət anlayışı, beynin insan həyatında rolu kimi bir çox mövzulara toxunur. Alim bu mövzuların beyinlə əlaqəsini izah etməklə kifayətlənmir, beyinlə bağlı müxtəlif formullar və modellər irəli sürür. İnsan psixologiyası və davranışlarına neyron və gen prizmasından baxmağı öyrədir. Elmi-populyar dildə yazılmış bu kitab xüsusən müəllimlər, psixoloqlar, valideynlər, həkimlər üçün mühüm bilikləri ehtiva edir.</p>
+        </div>
+        <button type="button" class="btn btn-info  text-white">Səbətə əlavə et</button>
+      </div>
+    
+      <div class="alert alert-warning text-center mt-3" role="alert">
+        Bu kitabdan cəmi 2 ədəd qalıb
+      </div>
+    
+      <h3 class="text-center">XÜSUSİYYƏTLƏR</h3>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Xüsusiyyət</th>
+            <th scope="col">Açıqlama</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Dil:</td>
+            <td>Azərbaycanca</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Janr:</td>
+            <td>Psixologiya</td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th scope="row">3</th>
+            <td>Müəllif:</td>
+            <td>David Eagleman</td>
+          </tr>
+
+          <tr>
+            <th scope="row">4</th>
+            <td>Nəşriyyat:</td>
+            <td>Qanun nəşriyyatı</td>
+          </tr>
+        </tbody>
+      </table>
+ 
+    <h3 class="text-center">ŞƏRH YAZ</h3>
+
+      <label for="exampleDataList" class="form-label">Tam adınız:</label>
+      <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Ad Soyad">
+
+      <label for="exampleDataList" class="form-label">Hansı dildə oxumusunuz?</label>
+      <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Azərbaycan">
+
+      <label>Qiymətləndirmə:</label>
+      <input type="range" class="d-block">
+      <label class="d-block">Şərhiniz:</label>
+      <textarea name="message" class="w-100"></textarea>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Bu kitabı oxumusunuzmu?</label>
+      </div> 
+    <button class="btn btn-primary" type="submit">Submit</button>
+    
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
